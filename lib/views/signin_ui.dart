@@ -67,26 +67,6 @@ class _SigninUiState extends State<SigninUi> {
                 SizedBox(
                   height: 20.0,
                 ),
-                TextField(
-                  keyboardType: TextInputType.emailAddress,
-                  decoration: InputDecoration(
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(8.0),
-                    ),
-                    prefixIcon: Icon(
-                      Icons.person_2_outlined,
-                      color: Colors.grey,
-                    ),
-                    hintText: 'E-Mail',
-                    hintStyle: TextStyle(
-                      color: Colors.grey,
-                    ),
-                    contentPadding: EdgeInsets.symmetric(
-                      vertical: 25.0,
-                      horizontal: 20.0,
-                    ),
-                  ),
-                ),
                 SizedBox(
                   height: 20.0,
                 ),
