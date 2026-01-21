@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_iot_second_app/views/signin_ui.dart';
+import 'package:flutter_iot_second_app/views/signup_ui.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomeUi extends StatelessWidget {
@@ -57,7 +59,14 @@ class HomeUi extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 OutlinedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => SigninUi(),
+                      ),
+                    );
+                  },
                   child: Text('LOGIN'),
                   style: OutlinedButton.styleFrom(
                     fixedSize: Size(120.0, 40.0),
@@ -70,7 +79,14 @@ class HomeUi extends StatelessWidget {
                   width: 20.0,
                 ),
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => SignupUi(),
+                      ),
+                    );
+                  },
                   child: Text(
                     'SIGN UP',
                     style: TextStyle(color: Colors.white),
