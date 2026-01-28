@@ -45,7 +45,7 @@ class HomeUi extends StatelessWidget {
               ),
             ),
             Text(
-              'Created by Thiiwpong IoT-SAU 2026',
+              'Created by Thitipong IoT-SAU 2026',
               style: GoogleFonts.itim(
                 fontSize: 22.0,
                 fontWeight: FontWeight.w100,
@@ -67,7 +67,7 @@ class HomeUi extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('LOGIN.'),
+                  child: Text('LOGIN'),
                   style: OutlinedButton.styleFrom(
                     fixedSize: Size(120.0, 40.0),
                     shape: RoundedRectangleBorder(
