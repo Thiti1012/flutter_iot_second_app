@@ -67,7 +67,7 @@ class HomeUi extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Text('LOGIN'),
+                  child: Text('LOGIN.'),
                   style: OutlinedButton.styleFrom(
                     fixedSize: Size(120.0, 40.0),
                     shape: RoundedRectangleBorder(
